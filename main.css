@@ -1,0 +1,144 @@
+/*
+  BASE STYLES
+  Set the base styles for the page
+*/
+* {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  /* Center the content */
+  max-width: 630px;
+  margin: 0 auto;
+  background: #c5b2b2;
+}
+
+
+li {
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 30px
+}
+
+
+p {
+  font-size: 1.5em;
+  color: #026953;
+}
+
+
+/***********************************************************************/
+/*
+  HEADER
+*/
+header, #hobbyList, footer {
+  /*
+    Stack and center the content for my list of hobbies and footer info
+   */
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+header img {
+  /* Prevent the image from stretching */
+  max-width: 300px;
+  max-height: 200px;
+}
+
+
+#myName {
+  color: #3030ff;
+  text-align: center;
+}
+
+
+/*
+  NAVIGATION
+*/
+nav {
+  padding-top: 2em;
+}
+
+
+nav ul {
+  /*
+    Allow the list items to flow in a row and wrap to a new line if needed.
+    Center the content.
+   */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+nav li {
+  padding: .5em 1em;
+}
+
+
+nav ul a {
+   font-size: 1.5em;
+}
+
+
+/***********************************************************************/
+/* MAIN CONTENT */
+article, footer {
+  /* add padding, margin, and borders around articles and footer */
+  border: 3px solid #7d6666;
+  padding: 10% 0;
+  margin: 10% 0;
+}
+
+
+h2 {
+  margin: 1em 0 .2em 0;
+  font-size: 1.5em;
+  color: #48900a;
+}
+
+
+#hello {
+  /* change color of Hello World */
+  color: #a00099;
+}
+
+
+#hobbyList {
+  padding-top: 1em;
+  font-size: 1.5em;
+  color: #fb0000;
+}
+
+
+/***********************************************************************/
+/*
+  FOOTER
+*/
+h4 {
+  margin: 1em 0 .2em 0;
+  font-size: 1.3em;
+  color: #48900a;
+}
+
+
+footer a {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0;
+}
+
+
+#update {
+  font-size: 1em;
+}
